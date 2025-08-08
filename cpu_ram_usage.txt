@@ -1,0 +1,22 @@
+CPU and RAM usage at Fri Aug  8 07:33:10 UTC 2025
+
+top - 07:33:10 up 22 min,  2 users,  load average: 0.00, 0.00, 0.00
+Tasks:  30 total,   1 running,  29 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.1 sy,  0.0 ni, 98.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7812.2 total,   6928.9 free,    483.7 used,    557.0 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7328.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21864  12512   9312 S   0.0   0.2   0:01.21 systemd
+      2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3076   1792   1792 S   0.0   0.0   0:00.00 init
+     52 root      19  -1   66748  15232  14336 S   0.0   0.2   0:06.09 systemd+
+     98 root      20   0   25136   6272   4992 S   0.0   0.1   0:00.14 systemd+
+    157 systemd+  20   0   21452  12800  10624 S   0.0   0.2   0:00.19 systemd+
+    162 systemd+  20   0   91020   7552   6784 S   0.0   0.1   0:00.28 systemd+
+    168 root      20   0    4236   2560   2432 S   0.0   0.0   0:00.00 cron
+    169 message+  20   0    9648   4736   4224 S   0.0   0.1   0:00.66 dbus-da+
+    185 root      20   0   18144   8192   7424 S   0.0   0.1   0:00.29 systemd+
+    190 root      20   0 1756096  12288  10368 S   0.0   0.2   0:00.14 wsl-pro+
+    218 syslog    20   0  222508   5504   4480 S   0.0   0.1   0:00.14 rsyslogd
+    224 root      20   0    3160   2048   1920 S   0.0   0.0   0:00.00 agetty
