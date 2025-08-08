@@ -1,21 +1,21 @@
-CPU and RAM usage at Fri Aug  8 10:25:00 UTC 2025
-top - 10:25:00 up 27 min,  2 users,  load average: 0.00, 0.01, 0.00
-Tasks:  31 total,   1 running,  30 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  1.1 us,  1.1 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :   7812.2 total,   6950.8 free,    480.9 used,    535.0 buff/cache     
-MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7331.3 avail Mem 
+CPU and RAM usage at Fri Aug  8 12:05:01 UTC 2025
+top - 12:05:01 up 5 min,  2 users,  load average: 0.00, 0.00, 0.00
+Tasks:  32 total,   1 running,  31 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.2 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7812.2 total,   6827.8 free,    483.0 used,    654.5 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7329.2 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-      1 root      20   0   21560  12476   9404 S   0.0   0.2   0:01.46 systemd
-      2 root      20   0    3060   1792   1792 S   0.0   0.0   0:00.01 init-sy+
-      6 root      20   0    3076   1796   1792 S   0.0   0.0   0:00.00 init
-     52 root      19  -1   66844  15300  14404 S   0.0   0.2   0:07.49 systemd+
-     97 root      20   0   25136   6272   4992 S   0.0   0.1   0:00.13 systemd+
-    158 systemd+  20   0   21452  12672  10496 S   0.0   0.2   0:00.26 systemd+
-    162 systemd+  20   0   91020   7552   6784 S   0.0   0.1   0:00.37 systemd+
-    168 root      20   0    4236   2560   2432 S   0.0   0.0   0:00.01 cron
-    169 message+  20   0    9656   4864   4352 S   0.0   0.1   0:00.84 dbus-da+
-    176 root      20   0   18152   8576   7680 S   0.0   0.1   0:00.36 systemd+
-    178 root      20   0 1756096  12544  10496 S   0.0   0.2   0:00.14 wsl-pro+
-    180 root      20   0    3160   2048   1920 S   0.0   0.0   0:00.00 agetty
-    196 root      20   0    3116   1920   1792 S   0.0   0.0   0:00.00 agetty
+      1 root      20   0   21684  12388   9316 S   0.0   0.2   0:00.60 systemd
+      2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.01 init-sy+
+      6 root      20   0    3076   1800   1792 S   0.0   0.0   0:00.00 init
+     52 root      19  -1   66832  15384  14488 S   0.0   0.2   0:01.43 systemd+
+     98 root      20   0   25268   6528   4992 S   0.0   0.1   0:00.11 systemd+
+    121 systemd+  20   0   21452  12416  10368 S   0.0   0.2   0:00.14 systemd+
+    129 systemd+  20   0   91020   7552   6784 S   0.0   0.1   0:00.12 systemd+
+    166 root      20   0    4236   2560   2432 S   0.0   0.0   0:00.00 cron
+    167 message+  20   0    9644   4736   4352 S   0.0   0.1   0:00.19 dbus-da+
+    177 root      20   0   18144   8448   7552 S   0.0   0.1   0:00.11 systemd+
+    179 root      20   0 1756096  12288  10368 S   0.0   0.2   0:00.08 wsl-pro+
+    181 root      20   0    3160   2048   1920 S   0.0   0.0   0:00.00 agetty
+    198 syslog    20   0  222508   5632   4480 S   0.0   0.1   0:00.07 rsyslogd
