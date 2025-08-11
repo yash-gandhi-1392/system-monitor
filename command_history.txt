@@ -1,0 +1,50 @@
+ls -lrt
+free -h
+cd ..\
+cd ..
+cd yash/
+cd ../..
+cd home/yash/
+ls
+cat yash_sample.txt 
+cat temp.txt 
+ls -l
+clear
+chmod -l file1.txt
+ls -l file1.txt 
+chomod 755 file1.txt 
+clear
+ls -l yash_sample.txt 
+chmod 755 yash_sample.txt 
+ls -l yash_sample.txt 
+cd /
+clear
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-60-239-198.eu-north-1.compute.amazonaws.com
+chmod 400 "yash25_aws1.pem"
+cd home/
+cd yash/
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-60-239-198.eu-north-1.compute.amazonaws.com
+exit
+ssh -i "yash25_aws1.pem" ec2-user@ec2-16-16-207-79.eu-north-1.compute.amazonaws.com
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-62-52-14.eu-north-1.compute.amazonaws.com
+exit
+ls
+vi yash_sample.txt 
+cat yash_sample.txt 
+vi process_orders.sh
+touch yash_sample_updated.txt
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+chmod +x process_orders.sh 
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+cat yash_sample_updated.txt 
+vi process_orders.sh
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+cat yash_sample_updated.txt 
+vi process_orders.sh
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+cat yash_sample_updated.txt 
+vi process_orders.sh
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+cat yash_sample_updated.txt 
+cat process_orders.sh 
+exit
