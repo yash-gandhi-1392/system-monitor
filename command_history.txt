@@ -18,3 +18,13 @@ vi process_orders.sh
 cat yash_sample_updated.txt 
 cat process_orders.sh 
 exit
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+cat yash_sample_updated.txt 
+vi process_orders.sh
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+cat yash_sample_updated.txt 
+vi process_orders.sh
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+cat yash_sample_updated.txt 
+cat process_orders.sh 
+exit
