@@ -1,43 +1,586 @@
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-cat process_orders.sh 
+pwd
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
 exit
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-cat process_orders.sh 
+ls
+pwd
+cd ..
+su - root
+cd ..
+ls
+cd home/
+cd yash/
+clear
+history
+clear
 exit
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-cat process_orders.sh 
+ls
+cd ~
+ls
+cd ..
+ls
+cd ..
+ls
+cd mnt
+ls
+cd c
+ls
+cd users
+ls
+cd yash.gandhi/
+ls
+cd downloads
+ls
+pwd
+scp yash25_aws2.pem /home/yash/dir1
 exit
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-cat process_orders.sh 
+ls
+mkdir dir1
+ls
+cd dir1
+pwd
+ls
+ssh -i "yash25_aws2.pem" ec2-user@ec2-13-62-20-53.eu-north-1.compute.amazonaws.com
+chmod 400 "yash25_aws2.pem" 
+ssh -i "yash25_aws2.pem" ec2-user@ec2-13-62-20-53.eu-north-1.compute.amazonaws.com
 exit
+ls
+cd dir1/
+ls
+ssh -i "yash25_aws2.pem" ec2-user@ec2-13-62-20-53.eu-north-1.compute.amazonaws.com
+exit
+which autossh 
+clear
+ls
+cd dir1/
+ls
+cd yash25_aws2.pem
+pwd
+cd ..
+ls
+chmod 400 /home/yash/dir1/yash25_aws2.pem
+ls
+clear
+cd dir1/
+ssh -i "yash25_aws2.pem" ec2-user@ec2-13-60-59-211 
+ssh -i "yash25_aws2.pem" ec2-user@ec2-13-60-59-211.eu-north-1.compute.amazonaws.com
+ls -a
+ssh-keygen -t rsa -b 4096
+ls -a
+cd ..
+ls -a
+cd ..
+ls -a
+c home
+cd home
+cd yash
+ls -a
+cd .ssh
+ls -a
+cat id_rsa
+cat id_rsa.pub
+ssh -i "yash25_aws2.pem" ec2-user@ec2-13-60-59-211.eu-north-1.compute.amazonaws.com
+cd ..
+ls -a
+cd dir1
+ssh -i "yash25_aws2.pem" ec2-user@ec2-13-60-59-211.eu-north-1.compute.amazonaws.com
+ssh ec2-user@ec2-13-60-59-211.eu-north-1.compute.amazonaws.com
+ls -a
+pwd
+cd ..
+cd .ssh
+vim config
+ls -a
+cd ..
+ls -a\
+ls -a
+cd dir 1
+cd dir1
+ls -a
+pwd
+vim config
+ls -a
+ssh aws
+cd..
+cd ..
+ssh aws
+cd dir1
+vim config
+ssh aws
+vim config
+chmod 600 ~/.ssh/config
+ssh aws
+chmod 400 ~/.ssh/my-key.pem
+cd ..
+ls -a
+chmod 400 ~/.ssh/yash25_aws2.pem
+clear
+ls -a
+cd .ssh
+ls -a
+pwd
+cd ..
+vim config
+ssh aws
+vim config
+cd dir1/
+ssh aws
+cd ..
+ls -a
+exit
+ls -a
+rm dir1
+rm config
+ls -a
+cd dir1
+ls -a
+rm config
+ls -a
+ssh ec2-user@13.51.156.211
+cd ..
+ssh ec2-user@13.51.156.211
+pwd
+ls --
+cd yash
+ls -a
+cd .ssh
+ls -a
+rm config
+ls -a
+ssh ec2-user@13.51.156.211
+exit
+ssh ec2-user@13.51.156.211
+ssh ec2-user@13.53.122.179
+exit
+history
+clear
+ls
+cd ..
+cd yash
+ls
+cd dir1/
+ls
+cd ..
+pwd
+cd dir1/
+scp yash25_aws2.pem /home/yash
+cd ..
+ls
+cd dir1
+rm yash25_aws2.pem 
+
+rm protected regular file 'yash25_aws2.pem'
+rm 'yash25_aws2.pem'
+ls
+cd ..
+ls
+mkdir dir1
+rmdir dir1
+ls
+ssh -i "yash25_aws2.pem" ec2-user@ec2-13-60-59-211.eu-north-1.compute.amazonaws.com
+ls
+ssh -i "yash25_aws2.pem" ec2-user@ec2-51-20-116-193.eu-north-1.compute.amazonaws.com
+ssh ec2-user@51.20.116.193
+pwd
+history
+ls -a
+cd ssh
+cd ..
+ls -a
+cd ..
+ls -a
+cd home/yash
+ls -a
+ls .ssh
+ssh ec2-user@51.20.116.193
+exit
+ssh ec2-user@51.20.116.193
+mkdir question_n
+cd question_n/
+touch input.txt
+nano input.txt 
+cat input.txt
+touch output.txt
+touch shift_lines.sh
+nano shift_lines.sh 
+chmod +x shift_lines.sh
+./shift_lines.sh input.txt output.txt 2
+touch output.txt
+cat output.txt
+ls
+./shift_lines.sh input.txt output.txt 3
+cat output.txt
+nano shift_lines.sh
+exit
+cd question_n/
+nano shift_lines.sh 
+exit
+ls
+mkdir question_o
+cd question_o
+cd ~
+cd question_o
+git clone https://github.com/yash-gandhi-1392/system-monitor.git 
+cd system-monitor
+nano monitor.sh
+chmod +x monitor.sh
+ssh-keygen -t rsa -b 4096 -C "yash.gandhi@bizacuity.com"
+cd ..
+ls -a
+cd .ssh
+ls -a
+cat id_rsa.pub
+cd ..
+ssh -T git@github.com
+ls
+sd question_o
+cd question_o
+cd system-monitor/
+git remote set-url origin git@github.com:yash-gandhi-1392/system-monitor.git
+git remote -v
+./monitor.sh
+crontab -e
+ls
+ls -a
+crontab -e
+ls -a
+echo "Test line $(date)" >> command_history.txt
+./monitor.sh
+ls
+cd monitor.sh
+nano monitor.sh
+pwd
+nano monitor.sh
+chmod +x monitor.sh
+./monitor.sh
+ls -a
+crontab -e
+ls -a
+./monitor.sh
+crontab -l
+crontab -e
+pwd
+crontab -e
+ls -a
+
+crontab -l
+ls -a
+exit
+ls
+cd question_o
+ls
+cd system-monitor/
+ls
+exit
+ls
+cd question_o
+ls
+cd system-monitor/
+ls
+crontab -e
+nano monitor.sh
+clear
+crontab -l
+clear
+ls -a
+./monitor.sh
+sudo useradd yash sudo
+sudo adduser yash sudo
+logout
+cd quetion_o/system-monitor
+cd question_o/system-monitor
+./monitor.sh
+cd ..
+ls -a
+cd ..
+ls -a
+ls -l
+cd question_o/system-monitor
+ls -l
+chmod +x monitor.sh
+ls -l
+./monitor.sh
+bash ./monitor.sh
+ls 
+nano monitor.sh
+./monitor.sh
+cd ..
+touch tst.txt
+ls -a
+clear
+touch tst.txt
+ls -a
+rm tst.txt
+ls -a
+cd system-monitor/
+ls -a
+clear
+exit
+ssh ec2-user@13.62.45.127
+cd question_o
+cd system-monitor/
+ls
+ls -a
+vi monitor.sh
+cd ..
+cd question_n
+ls
+vi shift_lines.sh
+exit
+ls -a
+exit
+pwd
+ls
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-51-237-98.eu-north-1.compute.amazonaws.com
+exit
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-48-178-218.eu-north-1.compute.amazonaws.com
+ls -l
+ls -a
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-48-178-218.eu-north-1.compute.amazonaws.com
+exit
+ssh ec2-user@51.20.66.237
+ls -a
+cd question_n
+ls -a
+ls shift_liner.sh
+ls -l
+cat shift_lines.sh 
+cd..
+cd ..
+ls question_o
+cd question_o
+ls
+nano crontab
+ls -l
+ls -a
+crontab -l
+nano crontab
+crontab -e
+cd ../question_n
+ls
+./shift_lines.sh input.txt output.txt 3
+./shift_lines.sh input.txt output.txt 
+vi input.txt 
+ls -a
+cd ../question_o
+ls -a
+cd system-monitor/
+ls -a
+cat monitor.sh
+exit
+history
+clear
+ls -l | grep ".txt"
+ls -l
+ls -l | grep ".pem"
+history
+clear
+exit
+clear
+ls -a
+cd question_n
+ls
+vi input.txt 
+cd..
+cd ..
+cd question_o
+cd ../..
+ls
+cd yash/
+ls
+mkdir yash_sample.txt
+ls
+rmdir yash_sample.txt/
+ls
+mkdir yash_sample
+ls
+rmdir yash_sample/
+ls
+clear
+ls
+touch yash_sample.txt
+ls
+ls -l yash_sample.txt 
+chmod 777 yash_sample.txt 
+ls -l yash_sample.txt 
+chmod 755 yash_sample.txt 
+ls -l yash_sample.txt 
+chmod 664 yash_sample.txt 
+ls -l yash_sample.txt 
+echo "We have to eat apple everyday, apple is good for health so eat apple." > temp.txt
+ls
+cat temp.txt 
+sed 's/apple/orange' temp.txt
+sed 's/apple/orange/g' temp.txt
+cat temp.txt 
+sed -i 's/apple/orange/g' temp.txt
+cat temp.txt 
+clear
+free -g
+du -h
+clear
+df -ah
+top
+clear
+uname -a
+hostname
+touch file.txt
+rm file.txt 
+touch file1.txt
+touch file2.txt
+ls
+zip archive.zip file1 file2
+sudo apt install zip
+zip archive.zip file1 file2
+zip archive.zip file1.txt file2.txt
+ls
+unzip archive.zip 
+ls
+rm archive.zip 
+ls
+xlear
+clear
+ls
+zip archive.zip file1.txt file2.txt
+ls
+unzip archive.zip 
+rm archive.zip 
+ls
+clear
+gzip file1.txt
+ls
+gunzip file1.txt.gz
+ls
+tar -cvf archive.tar file1.txt file2.txt
+ls
+tar -czvf archive.tar.gz file1.txt file2.txt
+ls
+tar -xvf archive.tar
+ls
+tar -xzvf archive.tar
+tar -xzvf archive.tar.gz
+clear
+sudo yum install 
+update yum
+sudo yum install httpd
+sudo update yum
+sudo yum update
+yum -version
+clear
+ls
+cd ..
+ls\
+ls
+cd home
+cd yash
+ssh -i "yash25_aws1.pem" ec2-user@ec2-51-20-127-190.eu-north-1.compute.amazonaws.com
+clear
+ls -l
+ping google.com
+telnet smtp.gmail.com 587
+ifconfig
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-60-223-65.eu-north-1.compute.amazonaws.com
+clear
+ls
+awk '{print $1}' temp.txt
+awk '{print $4}' temp.txt
+cat temp.txt
+ps.ef
+ps -ef
+clear
+ls
+rm archive.tar
+rm archive.tar.gz 
+echo "Lorem ipsum Morbi erat ex, lacinia nec efficitur eget, sagittis ut orci. Etiam in dolor placerat, pharetra ligula et, bibendum neque. Vestibulum vitae congue lectus, sed ultricies augue. Nam iaculis elit nec velit luctus, vitae rutrum nunc imperdiet. Nunc vel turpis sit amet lectus pellentesque tincidunt. Proin commodo tincidunt enim, at sodales mi dictum ac. Maecenas molestie, metus quis malesuada dictum, leo erat egestas lacus, sit amet tristique urna magna a diam. Donec ultricies dui sit amet mi ornare egestas. Phasellus ultricies lectus non interdum pellentesque. Cras nisi tellus, feugiat sed enim quis, tristique interdum lacus. Sed vel pharetra arcu, ac fermentum neque. Morbi mollis sollicitudin varius. Ut sit amet vulputate velit.
+
+Mauris semper neque quis lacinia volutpat. Aenean vestibulum diam ex, sit amet posuere dolor luctus non. Ut consectetur felis blandit ipsum convallis, non lobortis justo facilisis. Ut vitae velit pulvinar, pharetra libero semper, dignissim urna. Nullam quam quam, viverra eget feugiat a, interdum et erat. Morbi fringilla, eros et consequat iaculis, ligula nunc hendrerit neque, ac tincidunt massa sem vitae tortor. Nunc volutpat massa at dapibus pulvinar. Etiam risus sem, dignissim vel blandit eget, maximus lacinia purus.
+
+Cras luctus scelerisque tortor id cursus. Curabitur a interdum nunc, et vulputate diam. Quisque vitae ornare ligula. Nulla massa diam, pulvinar at diam vel, pretium lacinia erat. Quisque ut eros accumsan, ultricies ipsum nec, varius lacus. Fusce pretium vitae libero sit amet pharetra. Phasellus vel odio consequat, cursus risus et, malesuada nisl. In et semper magna, id facilisis nisi. Vestibulum pharetra tortor sed ligula pulvinar, malesuada ornare metus vehicula. Ut eu feugiat massa. Aliquam ut volutpat mi. Aliquam quis augue consectetur, mattis massa non, faucibus ante. Vestibulum rutrum pretium tortor et lacinia.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis nec mauris ac placerat. Cras pulvinar dolor at orci semper hendrerit. Nam elementum leo vitae quam commodo, blandit ultricies diam malesuada. Suspendisse lacinia euismod quam interdum mollis. Pellentesque a eleifend ante. Aliquam tempus ultricies velit, eget consequat magna volutpat vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris pulvinar vestibulum congue. Aliquam et magna ultrices justo condimentum varius." > temp.txt
+cat temp.txt
+clear
+less temp.txt 
+more temp.txt 
+tail -n 10 temp.txt 
+tail -n 2 temp.txt 
+head -n 3 temp.txt 
+clear
+vi temp.txt 
+tail -n 10 temp.txt 
+head -n 5 temp.txt 
+wc -l temp.txt 
+cd question_o
+ls
+crontab -l
+clear
+cd ..
+ls
+cat yash_sample.txt 
+grep "L" temp.txt
+find /home -name "*.txt"
+find /home -size "*.txt"
+find /home -type f -size "*.txt"
+find /home -type f -size +100M
+find /home -type f -size +10M
+find /home -type f -size +1M
+find /home -type f -size -1M
+clear
+cd ~
+.profile
+. ~/.profile
+ls
+cd ..
+. ~/.profile
+ls
+cd home/
+cd yash/
+ls
+echo "hii i am yash gandhi"
+ls -lrt
+free -h
+cd ..\
+cd ..
+cd yash/
+cd ../..
+cd home/yash/
+ls
+cat yash_sample.txt 
+cat temp.txt 
+ls -l
+clear
+chmod -l file1.txt
+ls -l file1.txt 
+chomod 755 file1.txt 
+clear
+ls -l yash_sample.txt 
+chmod 755 yash_sample.txt 
+ls -l yash_sample.txt 
+cd /
+clear
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-60-239-198.eu-north-1.compute.amazonaws.com
+chmod 400 "yash25_aws1.pem"
+cd home/
+cd yash/
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-60-239-198.eu-north-1.compute.amazonaws.com
+exit
+ssh -i "yash25_aws1.pem" ec2-user@ec2-16-16-207-79.eu-north-1.compute.amazonaws.com
+ssh -i "yash25_aws1.pem" ec2-user@ec2-13-62-52-14.eu-north-1.compute.amazonaws.com
+exit
+ls
+vi yash_sample.txt 
+cat yash_sample.txt 
+vi process_orders.sh
+touch yash_sample_updated.txt
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+chmod +x process_orders.sh 
+./process_orders.sh yash_sample.txt yash_sample_updated.txt 
+cat yash_sample_updated.txt 
+vi process_orders.sh
 ./process_orders.sh yash_sample.txt yash_sample_updated.txt 
 cat yash_sample_updated.txt 
 vi process_orders.sh
