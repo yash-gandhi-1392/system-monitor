@@ -1,50 +1,50 @@
-ls -lrt
-free -h
-cd ..\
-cd ..
-cd yash/
-cd ../..
-cd home/yash/
+ssh -i "yash25_aws2.pem" ec2-user@ec2-51-20-92-57.eu-north-1.compute.amazonaws.com
+sudo apt-get install postfix
+cat /etc/postfix/main.cf
+ls /etc/postfix/sasl
+ls /etc/postfix/sasl/
+vim /etc/postfix/sasl/sasl_passwd
+sudo yum install sendmail
+sudo apt-get install sendmail
+vim /etc/postfix/sasl/sasl_passwd
+sudo vim /etc/postfix/sasl/sasl_passwd
+sudo chmod 666 sasl_passwd 
 ls
-cat yash_sample.txt 
-cat temp.txt 
-ls -l
-clear
-chmod -l file1.txt
-ls -l file1.txt 
-chomod 755 file1.txt 
-clear
-ls -l yash_sample.txt 
-chmod 755 yash_sample.txt 
-ls -l yash_sample.txt 
-cd /
-clear
-ssh -i "yash25_aws1.pem" ec2-user@ec2-13-60-239-198.eu-north-1.compute.amazonaws.com
-chmod 400 "yash25_aws1.pem"
-cd home/
-cd yash/
-ssh -i "yash25_aws1.pem" ec2-user@ec2-13-60-239-198.eu-north-1.compute.amazonaws.com
+ls -a
+sudo vim /etc/postfix/sasl/sasl_passwd
+ssh -i "yash25_aws2.pem" ec2-user@ec2-16-16-64-191.eu-north-1.compute.amazonaws.com
+ssh -i "yash25_aws2.pem" ec2-user@ec2-16-16-64-191.eu-north-1.compute.amazonaws.com
 exit
-ssh -i "yash25_aws1.pem" ec2-user@ec2-16-16-207-79.eu-north-1.compute.amazonaws.com
-ssh -i "yash25_aws1.pem" ec2-user@ec2-13-62-52-14.eu-north-1.compute.amazonaws.com
-exit
+clear
+terraform
+clear
+cd terraform-yash/
+cd one/
 ls
-vi yash_sample.txt 
-cat yash_sample.txt 
-vi process_orders.sh
-touch yash_sample_updated.txt
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-chmod +x process_orders.sh 
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-vi process_orders.sh
-./process_orders.sh yash_sample.txt yash_sample_updated.txt 
-cat yash_sample_updated.txt 
-cat process_orders.sh 
+nano main.tf 
+% terraform import terraform.tfstate i-0dfe9be9d2d3bdf83
+% terraform import main.tf i-0dfe9be9d2d3bdf83
+nano main.tf 
+terraform init
+
+terraform import aws_instance.my_ec2 i-0dfe9be9d2d3bdf83
+terraform show
+ls
+nano terraform.tfstate
+nano main.tf 
+terraform plan
+nano main.tf 
+terraform plan
+nano main.tf 
+terraform state my_ec2
+terraform state show my_ec2
+terraform state
+terraform show
+nano main.tf 
+terraform plan
+nano main.tf 
+terraform init
+nano main.tf 
+terraform import aws_cloudwatch_metric_alarm.my_alarm awsec2-i-0dfe9be9d2d3bdf83-GreaterThanOrEqualToThreshold-CPUUtilization
+nano main.tf 
 exit
